@@ -10,6 +10,21 @@
     <link rel="icon" type="image/png" href="favicon.png">
   
     <!-- Stylesheets -->
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .imgbox {
+            display: grid;
+            height: 100%;
+        }
+        .center-fit {
+            max-width: 100%;
+            max-height: 100vh;
+            margin: auto;
+        }
+    </style>
     <!-- Reset default styles and add support for google fonts -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet" type="text/css" />
     <link href="http://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css" />
@@ -56,7 +71,7 @@
             <p>
               Sed tempus urna et pharetra pharetra massa massa ultricies. Porttitor rhoncus dolor purus non enim praesent. Id aliquet risus feugiat in ante metus dictum. 
             </p>
-            <img src="word-cloud.jpeg">
+            <img class="center-fit" src="word-cloud.jpeg">
           </div>
 
           <div id="skills in Microsoft packages" class="content-region hide">
